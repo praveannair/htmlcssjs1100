@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // const student = {
+      //   "first name": "Shanti",
+      //   age: 23,
+      //   city: "LA",
+      //   phone: 3545454,
+      //   "last name": "Vanom",
+      // };
+      // student.age = 32;
+      // student.country = 'India'
+      // delete student.phone
+      // console.log(student)
+
+      //   document.write(student)
+      //   document.write(student['last name'])
+      //   console.log(student)
+      //   console.log(student.name)
+
+      const students = [
+        {
+          "first name": "Shanti",
+          age: 23,
+          city: "LA",
+          phone: 3545454,
+          "last name": "Vanom",
+        },
+        {
+          "first name": "Mike",
+          age: 23,
+          city: "LA",
+          phone: 3545454,
+          "last name": "Smith",
+        },
+      ];
+
+for (let i=0;i<students.length;i++){
+  document.write(students[i]['first name']+"-"+students[i].age+"<button>Delete</button><br>")
+}
+
+      // console.log(students[0]);
+
+      // const students = {
+      //   "first name": ["Shanti","Naveen"],
+      //   age: [23],
+      //   city: "LA",
+      //   phone: 3545454,
+      //   "last name": "Vanom",
+      // };
+      // console.log(students["first name"][0]);
+    </script>
+  </body>
+</html>
